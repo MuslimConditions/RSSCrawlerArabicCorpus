@@ -1,0 +1,9 @@
+data_dir =./data
+crawl_conf = crawl-sites.xml
+source = Jawhara FM
+src_URL=http://www.jawharafm.net/ar/article/
+title_line=<h2 class=\"titr_ev\"><a href
+domain_line=<a class=\"etiquet \" style=\"background:none
+language_name=french
+db_user = root
+db_pass = 

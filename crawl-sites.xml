@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- English feeds begin here -->
+ <language name="french" tag="fr-fr">
+    <!--<channel name="localNews" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/17]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > div.ov_zoom > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel> 
+    <channel name="politic" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/1]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>
+    <channel name="economy" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/2]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>
+    <channel name="technology" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/4]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>
+    <channel name="culture" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/5]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>
+    <channel name="sport" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/6]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>
+    <channel name="internationalNews" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/18]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>-->
+    <!--<channel name="diverse" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/72]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+      <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel>-->
+    <channel name="society" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/43]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+     <domain_xpath><![CDATA[div.box_articlies]]></domain_xpath>
+      <href_xpath><![CDATA[div.box_articlies > a[href^="http://www.jawharafm.net/ar/article"]]></href_xpath>
+    </channel> 
+  </language>
+</feeds>

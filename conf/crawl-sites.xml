@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feeds>
+  <!-- English feeds begin here -->
+  <language name="french" tag="fr-fr">
+      <channel name="سياسة" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/1]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+     <!-- <tag_xpath><![CDATA[h2.titr_ev]]></tag_xpath>-->
+    </channel>
+	<channel name="اقتصاد" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/2]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+    <channel name="وطنية" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/17]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+     <channel name="تّكنولوجيا" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/4]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+    <channel name="ثقافة" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/5]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+     <channel name="رياضة" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/6]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+    <channel name="دولية" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/18]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+    <channel name="متفرقات" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/72]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+    <channel name="مجتمع" active="1">
+      <url><![CDATA[http://www.jawharafm.net/ar/rss/showRss/88/1/43]]></url>
+      <xpath><![CDATA[div.article_text > p]]></xpath>
+      <img_xpath><![CDATA[div.img_dtlact img[src]]]></img_xpath>
+    </channel>
+  </language>
+</feeds>
