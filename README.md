@@ -28,3 +28,8 @@ mysql-connector-java-*.*.**-bin.jar
 ```
 ## Credits
 We used the project "https://github.com/MingjieQian/RSSFeedCrawler" as a basis for our project and we modified it according to our need for data.
+
+---
+![Status](https://img.shields.io/badge/status-beta-orange.svg)
+![Language](https://img.shields.io/badge/language-Java-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
