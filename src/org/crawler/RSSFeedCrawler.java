@@ -99,6 +99,8 @@ public class RSSFeedCrawler {
     public String titleLine = "";
     
     public String languageName = "";
+    
+    public String dbName = "";
 
     String initialChannelName = "";
 
@@ -160,11 +162,11 @@ public class RSSFeedCrawler {
 
             s = DBConn.createStatement();
             if (this.DBCleanUp) {
-                s.executeUpdate("DROP DATABASE IF EXISTS RSSFeedCrawler;");
+                s.executeUpdate("DROP DATABASE IF EXISTS "+dbName+";");
                 System.out.println("Old database dropped.");
             }
-            s.executeUpdate("CREATE DATABASE IF NOT EXISTS RSSFeedCrawler;");
-            s.executeUpdate("USE RSSFeedCrawler;");
+            s.executeUpdate("CREATE DATABASE IF NOT EXISTS "+dbName+";");
+            s.executeUpdate("USE "+dbName+";");
             for (String channelName : RSSFeedMap.keySet()) {
                 s.executeUpdate(String.format(
                         "CREATE TABLE IF NOT EXISTS %s (", channelName)
@@ -233,6 +235,7 @@ public class RSSFeedCrawler {
         this.crawlConf = options.getProperty("crawl_conf").trim();
         this.DBUser = options.getProperty("db_user").trim();
         this.DBPass = options.getProperty("db_pass").trim();
+        this.dbName=options.getProperty("db_name").trim();
 
         buildRSSFeedMap();
 
