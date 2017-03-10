@@ -19,7 +19,7 @@ SHA256 is used instead of MD5 to digest URLs.
 	7. Language name defined in crawl-sites.xml
 	8. DataBase name
 	9. Username for mysql database
-        10. Password for mysql database
+      10. Password for mysql database
 * An XML file should be provided to specify the feed channels and the CSS selector syntax for the text and image content in a DOM tree.
 
 # Configured websites sources
