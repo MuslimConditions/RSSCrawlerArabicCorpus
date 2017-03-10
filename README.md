@@ -4,7 +4,10 @@
 CSS selector expression is used to specify the DOM locations for the text and image path.
 
 SHA256 is used instead of MD5 to digest URLs.
-
+# How to use:
+-Create a new mysql dataBase and write its name in the "sys_conf.txt" file.
+-Edit the configurations in the file "sys_conf.txt" to adapt your project
+-Run the project
 # Configurations:
 * All the parameters for the crawler are initialized from a file named sys_conf.txt. The sys_conf.txt specifies
 	1. The saving path for the crawled data
@@ -14,8 +17,9 @@ SHA256 is used instead of MD5 to digest URLs.
 	5. Part of code of the line containing the title in related links
 	6. Part of code of the line containing the domain in related links
 	7. Language name defined in crawl-sites.xml
-	8. Username for mysql database
-	9. Password for mysql database
+	8. DataBase name
+	9. Username for mysql database
+       10. Password for mysql database
 * An XML file should be provided to specify the feed channels and the CSS selector syntax for the text and image content in a DOM tree.
 
 # Configured websites sources
