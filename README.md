@@ -5,7 +5,7 @@ CSS selector expression is used to specify the DOM locations for the text and im
 
 SHA256 is used instead of MD5 to digest URLs.
 # How to use:
-   1. Create a new mysql dataBase and write its name in the "sys_conf.txt" file.
+    1. Create a new mysql dataBase and write its name in the "sys_conf.txt" file.
 	2. Edit the configurations in the file "sys_conf.txt" to adapt your project
 	3. Run the project
 # Configurations:
