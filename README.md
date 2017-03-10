@@ -5,9 +5,9 @@ CSS selector expression is used to specify the DOM locations for the text and im
 
 SHA256 is used instead of MD5 to digest URLs.
 # How to use:
--Create a new mysql dataBase and write its name in the "sys_conf.txt" file.
--Edit the configurations in the file "sys_conf.txt" to adapt your project
--Run the project
+        1. Create a new mysql dataBase and write its name in the "sys_conf.txt" file.
+	2. Edit the configurations in the file "sys_conf.txt" to adapt your project
+	3. Run the project
 # Configurations:
 * All the parameters for the crawler are initialized from a file named sys_conf.txt. The sys_conf.txt specifies
 	1. The saving path for the crawled data
